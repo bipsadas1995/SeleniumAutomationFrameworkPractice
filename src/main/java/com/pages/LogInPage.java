@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import com.base.BasePage;
 
@@ -37,7 +36,6 @@ public class LogInPage extends BasePage {
 
 	public void clickLogIn() {
 		logInButton.click();
-		Assert.assertEquals(driver.getTitle(), "admin-demo.nopcommerce.com");
 
 	}
 

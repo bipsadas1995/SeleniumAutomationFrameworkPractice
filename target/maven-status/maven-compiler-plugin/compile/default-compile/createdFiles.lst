@@ -1,2 +1,4 @@
+com/utils/Log.class
+com/utils/ExtentReportManager.class
 com/pages/LogInPage.class
 com/base/BasePage.class

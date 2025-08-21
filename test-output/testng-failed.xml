@@ -5,9 +5,11 @@
     <classes>
       <class name="com.tests.LogInTest">
         <methods>
-          <include name="testValidLogIn"/>
+          <include name="testValidLogIn" invocation-numbers="0 1"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUpReport"/>
+          <include name="tearDownReport"/>
         </methods>
       </class> <!-- com.tests.LogInTest -->
     </classes>
